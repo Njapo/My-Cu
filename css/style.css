@@ -44,6 +44,8 @@ body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background:#ff
 .table-schedule td.center{text-align:center}
 /* buttons in table */
 .btn-blue{background:#2f6084;color:#fff;padding:10px 18px;border-radius:4px;text-decoration:none;display:inline-block}
+html,body{min-width:1100px}
 /* responsive tweaks */
 @media(max-width:1000px){.sidebar{width:260px}.site-header h1{font-size:34px}}
+
 @media(max-width:800px){.container{flex-direction:column}.sidebar{width:100%}.profile-grid{grid-template-columns:1fr}}
