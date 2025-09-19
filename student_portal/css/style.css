@@ -1,0 +1,6 @@
+/* ...existing code... */
+/* responsive tweaks */
+@media(max-width:1000px){.sidebar{width:260px}.site-header h1{font-size:34px}}
+/* change stacking breakpoint: only stack on narrow mobile devices */
+@media(max-width:480px){.container{flex-direction:column}.sidebar{width:100%}.profile-grid{grid-template-columns:1fr}}
+/* ...existing code... */
